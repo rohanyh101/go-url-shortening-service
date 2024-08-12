@@ -38,7 +38,28 @@ To run the URL shortener service locally, follow these steps:
 
 3. **Access the Service**
 
-    Open your web browser and navigate to `http://localhost:8080` to start using the URL shortener service.
+    Open your web browser and navigate to `http://localhost:3000` to use the URL shortener service.
+
+### Running the Application With My Pre-built Docker Image
+
+If you prefer to use the pre-built Docker image available on Docker Hub, follow these steps:
+
+1. **Pull the Docker Image**
+
+    ```bash
+    docker pull rohanyh/url-shortner
+    ```
+
+2. **Run the Docker Container**
+
+    ```bash
+    docker run -p 8080:8080 rohanyh/url-shortner
+    ```
+
+3. **Access the Service**
+
+    Open your web browser and navigate to `http://localhost:8080` to use the URL shortener service.
+
 
 ### Running the Application Without Docker
 
@@ -56,7 +77,7 @@ To run the URL shortener service locally, follow these steps:
 
 3. **Access the Service**
 
-    Open your web browser and navigate to `http://localhost:8080` to start using the URL shortener service.
+    Open your web browser and navigate to `http://localhost:3000` to start using the URL shortener service.
 
 ## API Endpoints
 
